@@ -93,7 +93,7 @@ body {
 
 .navbar .nav-menu {
   display: flex;
-  align-items: left;
+  align-items: center;
   background: var(--bg-primary);
 }
 
@@ -262,9 +262,9 @@ body {
 }
 
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
-  font-size: 13px;
-  color: #999;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: #99999900;
   font-weight: 600;
   padding-left: 25px;
 }
