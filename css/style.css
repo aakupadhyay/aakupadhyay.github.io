@@ -57,6 +57,7 @@ html {
 
 ul {
   list-style: none;
+  justify-content: space-evenly;
 }
 
 a {
