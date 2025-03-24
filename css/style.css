@@ -123,6 +123,10 @@ body {
   display: none;
 }
 
+.text-highlight {
+  color: #2c19db;
+}
+
 .bar {
   display: block;
   width: 23px;
