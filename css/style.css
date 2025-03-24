@@ -255,6 +255,7 @@ body {
 /* Education section */
 .education .item {
   margin-bottom: 30px;
+  justify-content: space-evenly;
 }
 
 .education .item:last-child {
