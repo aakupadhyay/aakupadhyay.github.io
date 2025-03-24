@@ -70,6 +70,7 @@ body {
   color: var(--text-color);
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
+  text-align: justify;
 }
 
 /* Navbar */
@@ -123,8 +124,8 @@ body {
   display: none;
 }
 
-.text-highlight .h2 {
-  color: #2c19db;
+.text-highlight {
+  color: #1f07f7;
 }
 
 .bar {
@@ -133,7 +134,7 @@ body {
   height: 3px;
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
-  border-radius: 30px;education
+  border-radius: 30px;
   background-color: var(--bg-secondary);
 }
 
