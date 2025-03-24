@@ -291,7 +291,7 @@ body {
 .section .section-inner {
   background: #fff;
   padding: 30px;
-  text-align: left;
+  text-align: justify;
 }
 
 .section .heading {
@@ -301,7 +301,7 @@ body {
   font-size: 24px;
 }
 
-.section .content .more-link .svg-inline--fa {
+.section .more-link .svg-inline--fa {
   margin-right: 5px;
   font-size: 14px;
   position: relative;
