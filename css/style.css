@@ -32,7 +32,7 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #ffcd42;
+  --primary-color: #62ff42;
   --secondary-color: #ffd35c;
   --bg-primary: #000000;
   --text-color: #ffffff;
@@ -245,6 +245,33 @@ body {
 
 #footer p {
   font-size: 0.8rem;
+}
+
+/* Education section */
+.education .item {
+  margin-bottom: 30px;
+}
+
+.education .item:last-child {
+  margin-bottom: 0;
+}
+
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.education .item .university {
+  font-family: "Lato", arial, sans-serif;
+  font-size: 13px;
+  color: #999;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+.education .item .university .year {
+  color: #b0b7bf;
+  font-weight: 500;
 }
 
 /* Responsiveness */

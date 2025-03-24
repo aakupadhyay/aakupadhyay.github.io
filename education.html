@@ -1,724 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
     <title>Aakriti Upadhyay</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--meta name="description" content="Bootstrap Portfolio/Resume Theme for Developers"-->
-    <meta name="author" content="Aakriti Upadhyay">    
-    <!--link rel="shortcut icon" href="favicon.ico"-->  
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
-    <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-    
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
-    <!-- github acitivity css -->    
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    
-</head> 
+    <meta name="title" content="Portfolio Template - Open source" />
+    <meta
+      name="description"
+      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+    />
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container clearfix">                       
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="Aakriti Upadhyay" width="150" height="150"/>
-            <div class="profile-content float-left">
-                <h1 class="name">Aakriti Upadhyay</h1>
-                <h2 class="desc">Postdoctoral Fellow</h2>   
-                <!--ul class="social list-inline">
-                    <li class="list-inline-item"><a href="https://twitter.com/susrocks08"><i class="fab fa-twitter"></i></a></li>                   
-                    <li class="list-inline-item"><a href="https://www.facebook.com/aakriti.upadhyay.79"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/aakriti-upadhyay-69241987"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="list-inline-item"><a href="https://github.com/aakupadhyay"><i class="fab fa-github-alt"></i></a></li>    
-                    <!--li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li-->   
-                    <!--li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li-->                
-                </ul--> 
-            </div><!--//profile-->
-            <!--a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a-->              
-        </div><!--//container-->
-    </header><!--//header-->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/CommunityPro/portfolio-html"
+    />
+    <meta property="og:title" content="Portfolio Template - Open source" />
+    <meta
+      property="og:description"
+      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+    />
+    <meta
+      property="og:image"
+      content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://github.com/CommunityPro/portfolio-html"
+    />
+    <meta property="twitter:title" content="Portfolio Template - Open source" />
+    <meta
+      property="twitter:description"
+      content="Build or customize your portfolio website using this super easy template. Free to use if you are a member of the community or a contributor to this project"
+    />
+    <meta
+      property="twitter:image"
+      content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
+    />
+
+    <!-- Link -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href="https://aakupadhyay.github.io/resume"
+              ><img src="./assets/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">ACADEMIC PROJECTS</a></li>
+            <li><a class="nav-link" href="#awards">ACCLADE</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href="./assets/Web_profile.pdf"
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <!--Education-->
+      <section class="header-container">
+        <div class="division"></div>
+            <div class="content-text">
+              <h2>Education</h2>
+
+                <div class="item">                      
+                    <h3 class="title"><i class="fas fa-graduation-cap"></i> Ph.D., Computer Science</h3>
+                    <h4 class="university">University at Albany, SUNY <span class="year">(2018-2023)</span></h4>
+                </div>
     
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <!--p>I am a Ph.D. candidate in the Department of Computer Science, University at Albany, SUNY. 
-                                I am grateful to work under the supervision of <strong>Dr. XYZ</strong> in <strong>LOL</strong> lab.
-                                My research interests are Robotics, Computation Geometry, Applied Mathematics, and Machine Learning. 
-                                I developed two robot motion planning algorithms integrating machine learning techniques during my master's program. 
-                                My current research involves developing and designing a topological path planner for robots/biomolecules with 
-                            application in robot motion planning and computation biology.
-                            </p-->
-                            <p> I am currently working as a Postdoctoral Fellow at Colorado School of Mines with <strong>Dr. Neil Dantam</strong>. </p>
-                                
-                                <p>I graduated with a Ph.D. in Computer Science from the University at Albany, SUNY. 
-                                My research integrates concepts from Computational Geometry, Applied Mathematics, and Machine Learning. 
-                                My work focuses on the robot motion planning problem and utilizes Topological Data Analysis (TDA) methods to optimize motion planning 
-                                by leveraging environmental properties. The developed topology approach also extends its applications to computational biology problems, 
-                                particularly in identifying optimal binding positions for protein-ligand or protein-protein interactions. </p>
-                                <!--p>Some applications are:</p-->
-                    
-                            <!--ul class="list-styled">
-                                    <li> <strong>Object Detection and Avoidance</strong>: The framework can be integrated with robot navigation software, like SLAM, to detect critical 
-                                        features of the objects to help determine waypoints at a safer distance from the obstacle surface. The framework helps avoid extraneous details of the 
-                                        object, e.g., color or texture information.</li>
-                                    <li> <strong>Assess or Classify Robot motions/paths</strong>: The framework helps classify various motions of robots around obstacles based on the unique features of 
-                                        each object. For instance, let's say we have five objects present in the planning space, and the robot needs to navigate through at least two to 
-                                        three obstacles to reach its destination. In such a scenario, the framework can provide 20 different paths for the robot to move around the environment.</li>
-                                    <li> <strong>Efficient planning in an unstructured environment</strong>: The framework when combined with artificial intelligence tools can help in faster robot learning. 
-                                        The framework generates a 1D skeleton of the underlying space (i.e., sparse roadmap/graph) that captures all possible collision-free configurations in each sub-region 
-                                        of the robot's workspace by removing redundant topological information.</li>
-                        </ul-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->  
-                    <!--div style="padding:56.25% 0 0 0;position:relative;"></div-->
-                    <br>
-                    <!--center>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sYzubAYMwKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                </center-->
-                </section><!--//section-->
-                            
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Peer Reviewed Publications</h2>
-                        <div class="content">    
-                                               
-                            <!--div class="item featured text-center">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">Appify</a></h3>
-                                <p class="summary">The perfect Bootstrap 4 admin template for app developers</p>
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank">
-                                    <img class="img-fluid project-image" src="assets/images/projects/project-featured.jpg" alt="project name" />
-                                    </a>
-                                    <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div>
-                                </div>
-                                    
-                                <div class="desc text-left">                                    
-                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
-                                </div--><!--//desc-->         
-                                <!--a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/velocity-bootstrap-theme-for-startup-products/" target="_blank"><i class="fas fa-thumbs-up"></i> Back my project</a>                 
-                            </div--><!--//item-->
-                            <!--hr class="divider" /-->
-
-                             <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://www.algorithmic-robotics.org/papers/53_Topology_Driven_Recovery_Pa.pdf" target="_blank"> Topology-Driven Recovery Path Planning in Dynamic Obstacle Environments.</a></h3>
-                                    <p class="mb-2">Ghosh, Mukulika, Aakriti Upadhyay, and Chinwe Ekenna. "Topology-Driven Recovery Path Planning in Dynamic Obstacle Environments." 
-                                        In Algorithmic Foundations of Robotics XVI: Proceedings of the Sixteenth Workshop on the Algorithmic Foundations of Robotics (WAFR), 2024. </p>
-                                    <!--p><a class="more-link" href=""_blank"><i class="fas fa-external-link-alt"></i>Download PDF</a></p-->
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/abstract/document/10801445" target="_blank"> A Sampling Ensemble for Asymptotically Complete Motion Planning with Volume-Reducing Workspace Constraints.</a></h3>
-                                    <p class="mb-2"> Li, Sihui, Matthew Schack, Aakriti Upadhyay, and Neil Dantam. "A Sampling Ensemble for Asymptotically Complete Motion Planning with Volume-Reducing Workspace Constraints". International Conference on Intelligent Robots and Systems (IROS), IEEE/RSJ. 2024.</p>
-                                    <!--p><a class="more-link" href=""_blank"><i class="fas fa-external-link-alt"></i>Download PDF</a></p-->
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://www.proquest.com/openview/8d1fa14cbcd3948c1179cb09963bcee7/1?pq-origsite=gscholar&cbl=18750&diss=y" target="_blank">Near-Optimal Motion Planning Algorithms Via A Topological and Geometric Perspective</a></h3>
-                                    <p class="mb-2"> Upadhyay, A. K. (2023). Near-Optimal Motion Planning Algorithms via a Topological and Geometric Perspective (Doctoral dissertation, State University of New York at Albany).</p>
-                                    <p><a class="more-link" href="https://scholarsarchive.library.albany.edu/cs-etds/1/"_blank"><i class="fas fa-external-link-alt"></i>Download PDF</a></p>
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://www.mdpi.com/1422-0067/24/14/11785" target="_blank">A New Tool to Study the Binding Behavior of Intrinsically Disordered Proteins</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti and Chinwe Ekenna. "A New Tool to Study the Binding Behavior of Intrinsically Disordered Proteins." 
-                                         International Journal of Molecular Sciences (IJMS), MDPI, 2023.</p>
-                                    <!--p><a class="video-link" href="https://youtu.be/cgq9i4RzU1E" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p-->
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href=" " target="_blank">Minimal Path Violation Problem with Application to Fault Tolerant Motion Planning of Manipulators.</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Mukulika Ghosh, and Chinwe Ekenna. "Minimal Path Violation Problem with Application to Fault Tolerant Motion Planning of Manipulators." 
-                                        2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2023.</p>
-                                    <p><a class="more-link" href="assets/Path_Ranker.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a></p>
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9995019" target="_blank">A geometric and topological analysis of the binding behavior of Intrinsically Disordered Proteins</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti and Chinwe Ekenna. "A geometric and topological analysis of the binding behavior of Intrinsically Disordered Proteins" 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2022.</p>
-                                    <p><a class="video-link" href="https://youtu.be/cgq9i4RzU1E" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/document/9981379" target="_blank">Incremental Path Planning Algorithm via Topological Mapping with Metric Gluing</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Boris Goldfarb, and Chinwe Ekenna. "Incremental Path Planning Algorithm via Topological Mapping with Metric Gluing." 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2022.</p>
-                                    <p><a class="more-link" href="assets/Incremental_Planner.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a> &nbsp&nbsp
-                                        <a class="video-link" href="https://youtu.be/sHTZ6AdQ7XM" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a> </p>                                    
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9669313" target="_blank">A topology approach towards modeling activities and properties on a biomolecular surface</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Tuan Tran, and Chinwe Ekenna. "A topology approach towards modeling activities and properties on a biomolecular surface." 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2021.</p>
-                                    <p><a class="more-link" href="assets/BIBM21.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a> &nbsp&nbsp
-                                        <a class="video-link" href="https://youtu.be/kzbZWXeWDVE" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>                                    
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9636714" target="_blank">A Topological Approach to Finding Coarsely Diverse Paths</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Boris Goldfarb, and Chinwe Ekenna. "A Topological Approach to Finding Coarsely Diverse Paths." 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2021.</p>
-                                    <p><a class="more-link" href="assets/Coarsely_diverse_Paths.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a> &nbsp&nbsp
-                                        <a class="video-link" href="https://www.youtube.com/watch?v=yf18OyaLSsg" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>                                    
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-21090-7_2" target="_blank">A New Application of Discrete Morse Theory to Optimizing Safe Motion Planning Paths</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Boris Goldfarb, Weifu Wang, and Chinwe Ekenna. "A new application of discrete morse theory to optimizing safe motion planning paths." 
-                                        In Algorithmic Foundations of Robotics XV: Proceedings of the Fifteenth Workshop on the Algorithmic Foundations of Robotics, pp. 18-35. Cham: Springer International Publishing, 2022.</p>
-                                    <p><a class="more-link" href="assets/Manuscript.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a> &nbsp&nbsp
-                                        <a class="video-link" href="https://youtu.be/VpqB3hY7bz8" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>                                    
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/document/8968148" target="_blank">Approximating Cfree space topology by constructing Vietoris-Rips complex</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, Weifu Wang, and Chinwe Ekenna. "Approximating Cfree space topology by constructing Vietoris-Rips complex." 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2019.</p>
-                                    <p><a class="video-link" href="https://www.youtube.com/watch?v=SSVSzaR5VIA" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://personalrobotics.cs.washington.edu/workshops/mlmp2018/assets/docs/25_CameraReadySubmission_rapidly-exploring-random.pdf" target="_blank">Rapidly Exploring Random Search Explorer (RESE)</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, and Chinwe Ekenna. "Rapidly Exploring Random Search Explorer." In proceeding 2018 IEEE International Conference on Intelligent Robots and Systems (IROS) workshop on Machine Learning in Robot Motion Planning (MLMP), October 2018.</p>
-                                    <!--p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p-->
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/document/8376279" target="_blank">Heterogeneous Planning Spaces (HPS)</a></h3>
-                                    <p class="mb-2"> Upadhyay, Aakriti, and Chinwe Ekenna. "Investigating heterogeneous planning spaces." In 2018 IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR), pp.108-115. IEEE, 2018.</p>
-                                    <p><a class="more-link" href="assets/HPS_paper-07.pdf" target="_blank"><i class="fas fa-external-link-alt"></i>Manuscript</a> &nbsp&nbsp
-                                        <a class="video-link" href="https://www.youtube.com/watch?v=kfdI7GpOEAA" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>                            
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                             <div class="item">
-                                <!--a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />
-                                </a-->
-                                <!--div class="desc col-md-8 col-12"-->
-                                    <h3 class="title"><a href="https://ieeexplore.ieee.org/document/7443642" target="_blank">User Profiling from Profile Picture (UP3)</a></h3>
-                                    <p class="mb-2"> Vasanthakumar, G. U., Aakriti Kumari Upadhyay, Pradeep F. Kalmath, Sthita Dinakar, P. Deepa Shenoy, and K.R. Venugopal. "UP3: User profiling from Profile Picture in Multi-Social Networking." In 2015 Annual IEEE India Conference (INDICON), pp. 1-6. IEEE, 2015.</p>
-                                    <!--p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p-->
-                                <!--/div--><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <!--div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div>                          
-                            </div--><!--//item-->      
-                                         
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                
-                </section><!--//section-->
-                
-                <section class=" experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">   
-                            
-                             <div class="item">
-                                <h3 class="title">Teaching Assistant (TA) - <span class="place"><a href="https://www.albany.edu/computer-science/">Department of Computer Science, CEAS, University at Albany, SUNY</a></span> <span class="year">(August 2018 - May 2020, August 2021 - May 2022, Jan - May 2023)</span></h3>
-                                <p> I have assisted in teaching and grading work for graduate and undergraduate-level courses. 
-                                    I have handled courses like Discrete Mathematics, Algorithms and Data Structures, Finite Automata, and Principles of Programming Languages.
-                                </p>
-                                <!--ul class="list-styled">
-                                    <li> I worked as TA for a graduate-level course “Discrete Mathematics” during the Fall of 2018.</li>
-                                    <li> I have worked for two undergraduate-level courses, i.e. “Algorithms and Data Structures” (ICSI 403) and “Data Structures” (ICSI 213) during Spring 2019.</li>
-                                    <li> I have worked as TA for two undergraduate level courses, i.e. “Algorithms and Data Structures” (ICSI 403) and “Finite Automata” (ICSI 409) during Fall 2019.</li>
-                                    <li> I have worked as a TA for an undergraduate-level course “Principles of Programming Languages” (ICSI 311) and for a graduate-level course “Algorithms and Data Structures” (ICSI 503) during Spring 2020.</li>
-                                </ul-->
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Research Assistant (RA) - <span class="place"><a href="https://www.albany.edu/computer-science/">Department of Computer Science, CEAS, University at Albany, SUNY</a></span> <span class="year">(2020-2022)</span></h3>
-                                <p> I have worked in the RACS (Robotics Algorithms and Computable Systems) research lab and my duties involved research work-related activities like grant proposal writing, paper submissions to conferences and journals, research work presentations, and peer-reviewing of scientific papers. 
-                                    I also assisted undergraduate students with their capstone projects.
-                                </p>
-                            </div>                          
-                
-                            
-                            <div class="item">
-                                <h3 class="title">Technology Intern - <span class="place"><a href="https://www.livingresources.org/">Living Resources Company</a></span> <span class="year">(May-August 2020)</span></h3>
-                                <p>I worked as a technology intern for the Misty project team. The project aims to bring a home assistant robot to help in serving people with intellectual and developmental disabilities. 
-                                    My responsibilities included:</p>
-                                <ul class="list-styled">
-                                    <li> Development of skills for the Misty robot which included emotion detection skills, speech analysis and auto-conversation skills, battery and routine monitoring skills, and autonomous driving skills.</li>
-                                    <li> Attendance to discussion meetings to gather technical information on Misty’s skills inventory from Misty Robotics (the manufacturer) and to understand the vision for the development plan.</li>
-                                    <li> Maintenance of project development plan document based on the continual matching of Misty’s onboard skills for a personal assistant robot.</li>
-                                </ul>
-                                <p>Programming languages: JavaScript and REST API.</p>
-                                <p>Software: Google Dialogflow and GitHub/GitLab.</p>
-                            </div>
-                                                      
-                            <div class="item">
-                                <h3 class="title">Summer Research Intern - <span class="place"><a href="https://www.ornl.gov/">Oak Ridge National Laboratory</a></span> <span class="year">(June - August 2019)</span></h3>
-                                <p>I worked as a summer research intern in the Department of Computer Science and Mathematics Division (CSMD) at ORNL for the Discrete Computing Sciences (DCS) group. My responsibilities included:</p>
-                                <ul class="list-styled">
-                                    <li> Development of a graph visualization algorithm that determines the difference between two time-series graphs over a time period.</li>
-                                    <li> Work on combinatorial integer optimization to solve sparse matrix multiplication problem on Nvidia CUDA.</li>
-                                    <li> Application of NLP (Natural Language Processing) technique to perform the semantic mapping between two cyber-physical documents.</li>
-                                </ul>
-                                <p>Programming languages: Python, CUDA C/C++ and PyCUDA.</p>
-                            </div>
-                            
-                            <div class="item">
-                                <h3 class="title">Student Assistant - <span class="place"><a href="https://www.albany.edu/computer-science/">Department of Computer Science, CEAS, University at Albany, SUNY</a></span> <span class="year">(2017 - 2018)</span></h3>
-                                <p>I worked for the RACS research lab. My work involved:</p>
-                                <ul class="list-styled">
-                                    <li> Writing a literature review for the past and recent works done in the field of robot motion planning.</li>
-                                    <li> Designing and developing new algorithms integrating machine learning techniques.</li>
-                                    <li> Technologies used - C++, XML, Unix/Shell.</li>
-                                </ul>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Web Developer Intern - <span class="place"><a href="https://acase.org/">ACASE</a></span> <span class="year">(December 2017 - May 2018)</span></h3>
-                                <p>Developed an online application on the WordPress platform for teachers to help improve evaluation and assessment skills at high school level education. My responsibilities included:</p>
-                                <ul class="list-styled">
-                                    <li> Development and management of FORUM site for the organization.</li>
-                                    <li> Development of IDE (Internship Demonstrative Event) page for the ACASE website.</li>
-                                    <li> Involvement in publicizing activities for the book 'Knowing The Learner'.</li>
-                                </ul>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="https://www.netcracker.com/">NetCracker Technology</a></span> <span class="year">(2015 - 2016)</span></h3>
-                                <p>I have worked as a back-end developer for NetCracker's Product Development and Integration team. My responsibilities included: </p>
-                                <ul class="list-styled">
-                                    <li> Product development for NetCracker’s Integration and Mediation Interface used in customer services.</li>
-                                    <li> Designing of applications using Java, JavaScript, PL/SQL, Regex, XML, REST/SOAP User Interfaces with NetCracker’s well-structured database, 
-                                        allowing service providers to improve end-user relationships by consolidating real-time customer data into a user-friendly ecosystem 
-                                        that is accessible across all customer touch points.</li>
-                                    <li> Major responsibilities included developing customer products using the CI/CD processes, working with Issue Tracking systems (JIRA), 
-                                        working with the development and maintenance of applications, working with cross-cultural teams, and conducting knowledge transfer mentor 
-                                        sessions for incoming project members.</li>
-                                </ul>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Intern - <span class="place"><a href="https://www.netcracker.com/">NetCracker Technology</a></span> <span class="year">(12 February – 7 March 2015)</span></h3>
-                                <p>Developed a CRM (Customer Relationship Management) project that provides online telecommunication customer services for landline and mobile connections. My individual role involved the development of an order management module.</p>
-                                <ul class="list-styled">
-                                    <li> Programming languages - Java, JSP, and SQL.</li>
-                                    <li> The project was developed using Hibernate, Struts 2.0, DAO classes, and Apache Tomcat server.</li>
-                                </ul>
-                            </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Academic Projects</h2>
-                        <div class="content">
-                            
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/aakupadhyay/Employee-management-system-with-permission-grid" target="_blank">Employee management system with Permission Grid</a></h3>
-                                <p class="summary"> The Project developed a role-based access control system that uses an approach to restrict access to the organization's directories to authorized users only. 
-                                    The project has been developed using Agile methodologies, and JAVA (Servlets), JSP, and MySQL technologies.</p>
-                                <p><a class="more-link" href="https://github.com/aakupadhyay/Employee-management-system-with-permission-grid" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title"><a href="https://github.com/aakupadhyay/Fake-news-detection" target="_blank">Fake News Detection</a></h3>
-                                <p class="summary"> The software was developed using Python to build a Support Vector Machine (SVM) for the classification of fake news from Twitter. </p>
-                                <p><a class="more-link" href="https://github.com/aakupadhyay/Fake-news-detection" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title"> Identify drug target for the Plasmodium falciparum parasite</h3>
-                                <p class="summary"> Developed SVM (Support Vector Machine) on MATLAB, to classify drug targets in the metabolic networks. The project aims at reducing the effect of Plasmodium falciparum 
-                                    (malaria) parasite by identifying the target enzyme.</p>
-                                <!--p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p-->
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Round Robin Scheduling Algorithm with Dynamic Time Quantum</h3>
-                                <p class="summary"> The objective was to improve the working of the round-robin scheduling algorithm. The project was developed on the Linux platform using C++ and Unix technologies.</p>
-                                <!--p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p-->
-                            </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Facial Object Extraction Using Robust Feature Detector</h3>
-                                <p class="summary"> Objective was to detect the accurate facial features of human faces on improving the Viola-Jones algorithm in MATLAB. 
-                                    The project used known facial features to identify similar-looking individuals on the social media platform. </p>
-                                <!--p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p-->
-                            </div><!--//item-->
-                            
-                            <!--a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fas fa-chevron-right"></i></a-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <!--section class="github section">
-                    <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget. 
-                        
-                        <div id="github-graph" class="github-graph">
-
-                        </div><!--//github-graph-->
-
-                        <!--p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.        
-                        <!--//Usage: https://caseyscarborough.com/projects/github-activity/ -->                       
-                        <!--div id="ghfeed" class="ghfeed">
-                        </div--><!--//ghfeed-->
-                        
-                    <!--/div--><!--//secton-inner-->
-                <!--/section--><!--//section-->
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <!--aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>New York, USA</li>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">aupadhyay@albany.edu</a></li>
-                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li>
-                            </ul>
-                        </div>  
-                    </div>                 
-                </aside--><!--//aside-->
-                
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                             <ul class="list-unstyled">
-                                <li><b> Programming languages:</b> C/C++, Java, Unix/Shell, Python, MATLAB.</li>
-                                <!--li><b> Motion Planning Package:</b> Parasol Motion Planning Library (PMPL)/Parasol Planning Library (PPL).</li-->
-                                <li><b> Operating systems:</b> Windows, Linux (Ubuntu, OpenSUSE), MacOS.</li>
-                                <!--li><b> Microsoft Office Package:</b> Word, Excel, Outlook, PowerPoint, OneDrive.</li-->
-                                <li><b> Software skills:</b> ROS (Robotics Operating Systems), Gazebo, RViz, Gnuplot, Google Dialogflow, 
-                                    Git, NVIDIA CUDA, REST API, TortoiseSVN.</li>
-                                <!--li><b> Web technologies:</b> XML, MySQL/SQL, PHP, JavaScript, CSS, HTML5, Java-Servlet.</li-->                        
-                            </ul>
-                        </div>
-                            <!--p class="intro"></p-->
-                                
-                                <!--div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div--><!--//level-bar-->                                 
-                                <!--/div--><!--//item-->
-                                
-                                <!--p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p--> 
-                            <!--/div-->              
-                        <!--/div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                
-                <aside class="newsletter section">
-                    <div class="section-inner">
-                        <h2 class="heading">Featured in Articles</h2>
-                        <div class="content">     
-                            <div class="item">
-                                <h6 class="title">IEEE Robotics and Automation Magazine</h6>
-                                <ul class="list-unstyled">
-                                     <li><i class="fas fa-star"></i> <a href="https://ieeexplore.ieee.org/document/9194348" target="_blank">Robotics Research During a Pandemic </a></li>
-                                     <li><i class="fas fa-star"></i> <a href="https://ieeexplore.ieee.org/document/9194362" target="_blank">Meet the New Student Activities Committee Executive Team </a></li>
-                                </ul>  
-                             </div>
-                             <div class="item">
-                                <h6 class="title">National Center for Women & Information Technology (NCWIT)</h6>
-                                <ul class="list-unstyled">
-                                     <li><i class="fas fa-star"></i> <a href="http://aspirations.org/22CollegiateFinalists" target="_blank">2022 NCWIT Collegiate Award Finalist</a></li>
-                                     <li><i class="fas fa-star"></i> <a href="https://www.aspirations.org/22CollegiateRecipients" target="_blank">2022 NCWIT Collegiate Award Recipient</a></li>
-                                </ul>  
-                             </div>
-                            <div class="item">
-                                <h6 class="title">Association for Computing Machinery - Women (ACM-W)</h6>
-                                <ul class="list-unstyled">
-                                     <li><i class="fas fa-star"></i> <a href="https://women.acm.org/scholars/acm-w-scholars/aakriti-upadhyay/" target="_blank">ACM-W Scholars</a></li>                                    
-                                </ul>  
-                             </div>
-                            <!--p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p--> 
-                            
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Ph.D., Computer Science</h3>
-                                <h4 class="university">University at Albany, SUNY <span class="year">(2018-2023)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> M.Sc., Computer Science</h3>
-                                <h4 class="university">University at Albany, SUNY <span class="year">(2016-2018)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> B.E., Computer Science and Engineering</h3>
-                                <h4 class="university">University Visvesvaraya College of Engineering (UVCE), Bangalore University <span class="year">(2011-2015)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                            
-                <!--aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li>
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside-->
-                
-                <!--aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
-
-                        </div><!--//content-->
-                    <!--/div><!--//section-inner-->
-                <!--/aside--><!--//section-->
-                
-                <aside class="list awards aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Honors and Awards</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-trophy"></i> IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2023 student travel award.</li>
-                                <li><i class="fas fa-trophy"></i> Graduate Student Association (GSA) Professional Development Award 2022.</li>
-                                <li><i class="fas fa-trophy"></i> Computational Structural Bioinformatics Workshop (CSBW) student travel award for attendance at IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2022.</li>
-                                <li><i class="fas fa-trophy"></i> Texas A&M University NSF student travel award for attendance at 15th International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2022.</li>
-                                <li><i class="fas fa-trophy"></i> Received "Honorable Mention" for my research project at 2022 NCWIT Collegiate Award.</li>
-                                <li><i class="fas fa-trophy"></i> NSF student award for attendance at IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2021.</li>
-                                <li><i class="fas fa-trophy"></i> Graduate Student Employees Union (GSEU) Professional Development Award 2020.</li>
-                                <li><i class="fas fa-trophy"></i> ACM-W Scholarship Award for attendance at international research conference.</li>
-                                <li><i class="fas fa-trophy"></i> Great Dane Internship Scholarship Award for summer 2020.</li>
-                                <li><i class="fas fa-trophy"></i> IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2019 student travel award.</li>
-                                <li><i class="fas fa-trophy"></i> NSF student scholarship to attend ACM Richard Tapia Celebration of Diversity in Computing for 5 consecutive years, 2018-2022.</li>
-                                <li><i class="fas fa-trophy"></i> NSF student scholarship to attend CRA-W 2019 and 2021 Grad Cohort for Women Workshop.</li>
-                                <li><i class="fas fa-trophy"></i> Secured 2nd position in ACM Tapia poster competition and ACM SRC (Student Research Competition) 2018.</li>
-                                <li><i class="fas fa-trophy"></i> NSF travel scholarship for RSS (Robotics Science and Systems) 2018 conference.</li>
-                                <li><i class="fas fa-trophy"></i> University travel scholarship for GHC (Grace Hopper Celebration) 2017 conference.</li>
-                                <li><i class="fas fa-trophy"></i> ACM NYCWiC 2017 Poster Award winner title “Robot Motion Planning in Heterogeneous Space”.</li>
-                                <li><i class="fas fa-trophy"></i> Scored 7/10 in Wells Fargo's "Campus Analytics Challenge: What can you build better with us?" on MindSumo, 2017.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-                
-                <aside class="list conferences aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Conferences</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://ieee-iros.org/" target="_blank">IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2023</a> (Detroit, Michigan)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://ieeebibm.org/BIBM2022/" target="_blank">IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2022</a> (Las Vegas, NV)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://iros2022.org/" target="_blank">IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2022</a> (Kyoto, Japan - Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://tapiaconference.cmd-it.org/attend/2022-schedule/" target="_blank">ACM Richard Tapia Celebration of Diversity in Computing 2022</a> (Washington, D.C.)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://wafr2022.github.io/" target="_blank"> 15th International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2022</a> (Maryland, USA)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://ncwit.org/summit/2022/" target="_blank"> 2022 NCWIT vSummit on Women and IT</a> (Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://ieeebibm.org/BIBM2021/" target="_blank">IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2021</a> (Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://www.iros2021.org/" target="_blank">IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2021</a> (Prague, Czech Republic - Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://tapiaconference.cmd-it.org/" target="_blank">ACM Richard Tapia Celebration of Diversity in Computing 2021</a> (Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://web.cvent.com/event/6bb235cd-85c6-4087-bc1f-fd19b2681eca/summary">CRA-W Grad Cohort for Women Workshop, 2021</a> (Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://tapia2020.vfairs.com/" target="_blank">ACM Richard Tapia Celebration of Diversity in Computing 2020</a> (Virtual)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://www.iros2019.org/" target="_blank">IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2019</a> (Macau, China)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="http://tapiaconference.org/" target="_blank">ACM Richard Tapia Celebration of Diversity in Computing 2019</a> (San Diego, California)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://cra.org/cra-w/events/grad-cohort-2019/">CRA-W Grad Cohort for Women Workshop, 2019</a> (Chicago, Illinois)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="http://tapiaconference.org/" target="_blank">ACM Richard Tapia Celebration of Diversity in Computing 2018</a> (Orlando, Florida)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="http://www.roboticsconference.org/">Robotics Science and System (RSS) 2018</a> (Pittsburgh, Pennsylvania)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://ghc.anitab.org/calendar/2017-grace-hopper-celebration-women-computing/">Grace Hopper Conference (GHC) 2017</a> (Orlando, Florida)</li>
-                                <li><i class="far fa-calendar-alt"></i> <a href="https://nycwic.hosting.acm.org/">ACM NYCWiC 2017</a> (Rochester, NewYork)</li>
-                            </ul>
-                        </div><//content>
-                    </div><//section-inner>
-                </aside><!--//section-->
-                
-                <aside class="list roles aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Leadership Activities</h2>
-                        <div class="content">
-                             <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> Co-Treasurer</a></h6>
-                                <p> IEEE Denver Section (2024).</p>
-                            </div>
-                            <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> Graduate Ambassador</a></h6>
-                                <p> Graduate School, University at Albany, SUNY (2022-23).</p>
-                            </div>
-                            <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> Social Media Co-Chair</a></h6>
-                                <p> IEEE RAS Student Activities Committee (2020-22).</p>
-                            </div>
-                             <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> ACM-W Chair</h6>
-                                <p> ACM-W student council at University at Albany, SUNY (2019-21).</p>
-                            </div><!--//item-->
-                            <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> IEEEXtreme Ambassador</h6>
-                                <p> IEEE section Region 1 (2019).</p>
-                            </div>
-                            <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> IEEE Vice-Chair (Grad)</h6>
-                                <p> IEEE student council at University at Albany, SUNY (2019).</p>
-                            </div><!--//item-->
-                            <div class="item">                      
-                                <h6 class="title"><i class="fas fa-award"></i> Cultural Chair</h6>
-                                <p>Indian Student Organisation (ISO) at University at Albany, SUNY (2016-2017).</p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h6 class="title"><i class="fas fa-award"></i> Volunteer</h6>
-                                <p>CRY (Child Rights and You), N.G.O. in India (2013-2015). </p>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                <!--aside class="credits aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled pb-2">
-                                <li><a href="https://getbootstrap.com/" target="_blank"><i class="fas fa-external-link-alt"></i>Bootstrap</a></li>
-                                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fas fa-external-link-alt"></i>FontAwesome</a></li>
-                                <li><a href="https://jquery.com/" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Calendar Plugin</a></li>
-                                
-                                <li><a href="https://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fas fa-external-link-alt"></i>GitHub Activity Stream</a></li>
-                                
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fas fa-external-link-alt"></i>jQuery RSS</a></li>
-                                
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                            </ul>
-                            
-                            <hr/>
-                            
-                             <p class="pt-2">This Bootstrap 4 portfolio template is handcrafted by UX designer <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a> at <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                             <p>If you’d like to <strong>use this template without the attribution link</strong>, you can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank">buy the commercial license</a>.</p>
-                             
-                             <a class="btn btn-cta-primary btn-download" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-portfolio-theme-for-web-developers/" target="_blank"><i class="fas fa-download"></i> I want to download</a>
-                            <hr/>
-                            <h5 class="subheading pt-3">Want more free Bootstrap themes and templates?</h5>
-                            <p>Check out our <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/">collection of free themes and templates.</a></p>
-                            <p>Follow <a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying</a> on twitter so you don't miss any future freebies!</p> 
-                            
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fab fa-twitter"></i> Follow on twitter</a>
-                            
-                        </div><!--//content-->
-                    <!--/div><!--//section-inner-->
-                <!--/aside--><!--//section-->
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
+                <div class="item">                      
+                    <h3 class="title"><i class="fas fa-graduation-cap"></i> M.Sc., Computer Science</h3>
+                    <h4 class="university">University at Albany, SUNY <span class="year">(2016-2018)</span></h4>
+                </div>
     
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
-                <!--small class="copyright">Designed with <i class="fas fa-heart"></i> by Aakriti Upadhyay</small-->
-                <small class="copyright">Designed by Aakriti Upadhyay</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <script src="js/script.js"></script>         
-</body>
-</html> 
+                <div class="item">
+                    <h3 class="title"><i class="fas fa-graduation-cap"></i> B.E., Computer Science and Engineering</h3>
+                    <h4 class="university">University Visvesvaraya College of Engineering (UVCE), Bangalore University <span class="year">(2011-2015)</span></h4>
+                </div>
+            </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Projects -->
+    <section id="projects" class="project-container container">
+        <div class="division"></div>
+        <div class="content-text">
+            <h2>Academic Projects</h2>
+            <!-- <p>Check out some of my personal and paid projects</p> -->
+                
+            <div class="project-info">
+                <h3 class="title"><a href="https://github.com/aakupadhyay/Employee-management-system-with-permission-grid" target="_blank">Employee management system with Permission Grid</a></h3>
+                <p class="summary"> The Project developed a role-based access control system that uses an approach to restrict access to the organization's directories to authorized users only. 
+                    The project has been developed using Agile methodologies, and JAVA (Servlets), JSP, and MySQL technologies.</p>
+                <p><a class="more-link" href="https://github.com/aakupadhyay/Employee-management-system-with-permission-grid" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+            </div><!--//item-->
+            
+            <div class="project-info">
+                <h3 class="title"><a href="https://github.com/aakupadhyay/Fake-news-detection" target="_blank">Fake News Detection</a></h3>
+                <p class="summary"> The software was developed using Python to build a Support Vector Machine (SVM) for the classification of fake news from Twitter. </p>
+                <p><a class="more-link" href="https://github.com/aakupadhyay/Fake-news-detection" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+            </div><!--//item-->
+            
+            <div class="project-info">
+                <h3 class="title"> Identify drug target for the Plasmodium falciparum parasite</h3>
+                <p> Developed SVM (Support Vector Machine) on MATLAB, to classify drug targets in the 
+                  metabolic networks. The project aims at reducing the effect of Plasmodium falciparum 
+                  (malaria) parasite by identifying the target enzyme.</p>
+            </div>
+            
+            <div class="project-info">
+                <h3 class="title">Round Robin Scheduling Algorithm with Dynamic Time Quantum</h3>
+                <p> The objective was to improve the working of the round-robin scheduling algorithm. 
+                  The project was developed on the Linux platform using C++ and Unix technologies.</p>
+            </div>
+            
+            <div class="project-info">
+                <h3 class="title">Facial Object Extraction Using Robust Feature Detector</h3>
+                <p> Objective was to detect the accurate facial features of human faces on improving the Viola-Jones 
+                  algorithm in MATLAB. The project used known facial features to identify similar-looking individuals
+                  on the social media platform. </p>
+            </div>
+                 
+        </div> 
+    </section>
+
+    <section id="awards" class="awards-container container">
+      <div class="division"></div>
+        <div class="content-text">
+          <h2>Honors and Awards</h2>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-trophy"></i> IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2023 student travel award.</li>
+                <li><i class="fas fa-trophy"></i> Graduate Student Association (GSA) Professional Development Award 2022.</li>
+                <li><i class="fas fa-trophy"></i> Computational Structural Bioinformatics Workshop (CSBW) student travel award for attendance at IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2022.</li>
+                <li><i class="fas fa-trophy"></i> Texas A&M University NSF student travel award for attendance at 15th International Workshop on the Algorithmic Foundations of Robotics (WAFR) 2022.</li>
+                <li><i class="fas fa-trophy"></i> Received "Honorable Mention" for my research project at 2022 NCWIT Collegiate Award.</li>
+                <li><i class="fas fa-trophy"></i> NSF student award for attendance at IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2021.</li>
+                <li><i class="fas fa-trophy"></i> Graduate Student Employees Union (GSEU) Professional Development Award 2020.</li>
+                <li><i class="fas fa-trophy"></i> ACM-W Scholarship Award for attendance at international research conference.</li>
+                <li><i class="fas fa-trophy"></i> Great Dane Internship Scholarship Award for summer 2020.</li>
+                <li><i class="fas fa-trophy"></i> IEEE/RSJ International Workshop on Intelligent Robots and Systems (IROS) 2019 student travel award.</li>
+                <li><i class="fas fa-trophy"></i> NSF student scholarship to attend ACM Richard Tapia Celebration of Diversity in Computing for 5 consecutive years, 2018-2022.</li>
+                <li><i class="fas fa-trophy"></i> NSF student scholarship to attend CRA-W 2019 and 2021 Grad Cohort for Women Workshop.</li>
+                <li><i class="fas fa-trophy"></i> Secured 2nd position in ACM Tapia poster competition and ACM SRC (Student Research Competition) 2018.</li>
+                <li><i class="fas fa-trophy"></i> NSF travel scholarship for RSS (Robotics Science and Systems) 2018 conference.</li>
+                <li><i class="fas fa-trophy"></i> University travel scholarship for GHC (Grace Hopper Celebration) 2017 conference.</li>
+                <li><i class="fas fa-trophy"></i> ACM NYCWiC 2017 Poster Award winner title “Robot Motion Planning in Heterogeneous Space”.</li>
+                <li><i class="fas fa-trophy"></i> Scored 7/10 in Wells Fargo's "Campus Analytics Challenge: What can you build better with us?" on MindSumo, 2017.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <!-- <a href="mailto:communitypro47@gmail.com">communitypro47@gmail.com</a> -->
+        <!-- Social links -->
+        <!-- <div class="social">
+          <a href="#" target="_blank"
+            ><img src="./assets/facebook-icon.svg" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"><img src="./assets/twitter-icon.svg" alt="Twitter" /></a>
+          <a href="#" target="_blank"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="#" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+          <a href="#" target="_blank"
+            ><img src="./assets/hashnode-icon.svg" alt="Hashnode"
+          /></a>
+        </div> -->
+        <!-- Attribution -->
+        <!-- <div class="attribution">
+          <a
+            href="https://github.com/CommunityPro/portfolio-html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
+              alt="attribution"
+              width="150px"
+            />
+          </a>
+        </div>
+        <p>Copyright &copy; Communitypro <span id="datee"></span>, All rights reserved</p> -->
+        <p>Designed by Aakriti Upadhyay</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
