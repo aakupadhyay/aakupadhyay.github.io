@@ -145,19 +145,19 @@ h2::selection {
 
 /* Project Images */
 
-/* project 1 */
+/* academic 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(../assets/project/academic/EMS_access.jpg) center center/cover;
 }
 
-/* Project 2 */
+/* academic 2 */
 .card:nth-child(2) {
-  background: url(../assets/project/project-two.png) center center/cover;
+  background: url(../assets/project/academic/Fake_detect.png) center center/cover;
 }
 
-/* Project 3 */
+/* academic 3 */
 .card:nth-child(3) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../assets/project/academic/Round_robin.png) center center/cover;
 }
 
 /* Project 4 */
