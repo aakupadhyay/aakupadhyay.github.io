@@ -274,6 +274,35 @@ body {
   font-weight: 500;
 }
 
+/* ======= Sections======= */
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 24px;
+}
+
+.section .content .more-link .svg-inline--fa {
+  margin-right: 5px;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+
 /* Responsiveness */
 
 @media (max-width: 1000px) {
