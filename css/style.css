@@ -413,7 +413,7 @@ body {
 .header-wrapper {
   display: flex;
   align-items: justify;
-  gap: 25px;
+  row-gap: 25px;
   margin-bottom: 25px;
 }
 
