@@ -394,6 +394,7 @@ body {
 
 .timeline-item:first-child::before {
   border-color: transparent;
+  background-color: white;
 }
 
 .timeline-item::after {
