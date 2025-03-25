@@ -392,11 +392,6 @@ body {
   background: var(--jet);
 }
 
-.timeline-item:first-child::before {
-  border-color: transparent;
-  background-color: white;
-}
-
 .timeline-item::after {
   content: "";
   position: absolute;
