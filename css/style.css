@@ -356,7 +356,7 @@ body {
 
 .timeline .title-wrapper {
   display: flex;
-  align-items: left;
+  align-items: center;
   gap: 15px;
   margin-bottom: 25px;
 }
