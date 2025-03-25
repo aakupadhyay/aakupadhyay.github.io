@@ -382,7 +382,7 @@ body {
   line-height: 1.6;
 }
 
-/* .timeline-item:not(:last-child)::before {
+.timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
   top: -25px;
@@ -390,7 +390,7 @@ body {
   width: 1px;
   height: calc(100% + 50px);
   background: var(--jet);
-} */
+}
 
 .timeline-item::after {
   content: "";
