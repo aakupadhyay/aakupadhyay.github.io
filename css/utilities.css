@@ -186,3 +186,7 @@ h2::selection {
     font-size: 2.5rem;
   }
 }
+
+.fas.fa-smile {  /* Or use the correct class name */
+  color: #ffd900; /* Change to your desired color (e.g., yellow) */
+}
