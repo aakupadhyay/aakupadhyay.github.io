@@ -191,7 +191,7 @@ h2::selection {
 
 /* Research 1 */
 .rcard:nth-child(1) {
-  background: url(../assets/project/project-four.png) center center/cover;
+  background: url() center center/cover;
 }
 
 /* Research 2 */
