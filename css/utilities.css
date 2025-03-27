@@ -161,56 +161,6 @@ h2::selection {
   background: url(../assets/project/academic/Round_robin.png) center center/cover;
 }
 
-/* Research 1 */
-.rcard:nth-child(1) {
-  background: url() center center/cover;
-}
-
-/* Research 2 */
-.rcard:nth-child(2) {
-  background: url(../assets/project/project-five.png) center center/cover;
-}
-
-/* Research 3 */
-.rcard:nth-child(3) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 4 */
-.rcard:nth-child(4) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 5 */
-.rcard:nth-child(5) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 6 */
-.rcard:nth-child(6) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 7 */
-.rcard:nth-child(7) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 8 */
-.rcard:nth-child(8) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 9 */
-.rcard:nth-child(9) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
-/* Research 10 */
-.rcard:nth-child(10) {
-  background: url(../assets/project/project-six.png) center center/cover;
-}
-
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
