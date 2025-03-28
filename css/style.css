@@ -251,6 +251,10 @@ body {
   left: 10px;
 }
 
+.project-link {
+  padding: 30px;
+}
+
 /* Footer */
 #footer {
   background: #111111;
