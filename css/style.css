@@ -252,8 +252,8 @@ body {
 }
 
 .project-link {
-  padding: 30px;
-  border-spacing: 1cm;
+  padding: 300px;
+  /* border-spacing: 1cm; */
 }
 
 /* Footer */
