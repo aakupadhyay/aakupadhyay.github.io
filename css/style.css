@@ -405,9 +405,9 @@ body {
 }
 
 .timeline-text {
-  color: var(--light-gray-70);
-  /* color: blue; */
-  font-weight: var(--fw-300);
+  /* color: var(--light-gray-70); */
+  color: red;
+  font-weight: var(--fw-600);
   line-height: 1.6;
 }
 
