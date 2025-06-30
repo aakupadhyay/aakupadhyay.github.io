@@ -411,6 +411,29 @@ body {
   line-height: 1.6;
 }
 
+/* Adding style for videos */
+.video-text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.video-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+
 /* Responsiveness */
 
 @media (max-width: 1000px) {
@@ -496,3 +519,10 @@ body {
     width: 80%;
   }
 }
+
+@media (max-width: 768px) {
+  .video-text-section {
+    flex-direction: column-reverse; /* Put video below text */
+  }
+}
+
