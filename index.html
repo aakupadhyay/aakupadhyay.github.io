@@ -138,11 +138,48 @@
         <h1>Hi, I'm Aakriti</h1>
 
         <div class="content-text">
-          <h2>PostDoctoral Fellow</h2>
-          <h3>Colorado School of Mines (CSM)</h3>
+          <!-- <h2>PostDoctoral Fellow</h2>
+          <h3>Colorado School of Mines (CSM)</h3> -->
         </div>
         <div class="content">
-          <p>
+          <p> 
+            My research work explores how topological features influence planning difficulty, 
+            intending to create generalizable methods for safe and scalable robot autonomy. I 
+            have contributed to building roadmap-based planners, analyzing their completeness 
+            and optimality, and extending them to complex, high-dimensional environments for 
+            mobile robots and manipulator arms. Through my research, I tried finding answers to 
+            three key questions:
+            <ul>
+              <li>
+                <b>How can a robot adapt to the dynamics of a changing environment?</b>
+                I applied a reinforcement learning technique that allows the robot to
+                learn the heterogeneity of the environment and use a tailored sampling 
+                method for each identified homogeneous space, achieving an 8x performance 
+                improvement over state-of-the-art methods.
+              </li>
+
+              <li>
+                <b>How to efficiently train a robot using only crucial features of the environment?</b>
+                I applied Topological Data Analysis (TDA) methods (such as Vietoris-Rips complex, 
+                discrete Morse theory) to extract the topological features of the environment necessary 
+                to plan safe and near-optimal paths (i.e., eliminates the redundant or unnecessary data). 
+                The outcome showed better computational performance and memory usage when applied to 
+                high-dimensional motion planning problems.
+              </li>
+
+              <li>
+                <b>Can a robot determine when it cannot complete a task using the topological properties of the space?</b>
+                I employed hypercubes to map the topology of the in-collision subspace, which assesses the feasibility 
+                of a path between the start and goal positions. I used Brent's method to identify the intersections of 
+                the hypercubes with this subspace. I employed simplicial complexes and persistent homology to verify 
+                that no viable path exists, thereby confirming the disconnection between the start and goal.
+              </li>
+            </ul>
+
+          </p>
+
+          <!-- OLD STUFF -->
+          <!-- <p>
             I work for Dynamic Automata Lab (DyALab) supervised by <b>Dr. Neil T. Dantam</b>. Through my research at CSM, I am working on developing a robust motion planner that can provide
             an accurate and efficient infeasibility reasoning during path planning using the topology of 
             the robot's configuration space. 
@@ -155,7 +192,7 @@
             methods to optimize motion planning by leveraging environmental properties. The developed topology 
             approach also extends its applications to computational biology problems, particularly in identifying 
             optimal binding positions for protein-ligand or protein-protein interactions. 
-          </p>
+          </p> -->
         </div>
 
         <a
