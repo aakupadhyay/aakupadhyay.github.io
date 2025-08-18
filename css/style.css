@@ -109,6 +109,13 @@ a {
   color: var(--text-color);
 }
 
+/* Styling for links when the mouse hovers over them */
+a:hover {
+  color: green; /* Example color */
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
+
 /* Main styling */
 body {
   background: var(--bg-primary);
